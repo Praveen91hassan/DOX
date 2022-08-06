@@ -1,0 +1,36 @@
+_id: req_94b9b226a8c8420fb8014a3e599e3101
+type: Request
+parentId: fld_91a31e37541248d7829cf676a85ef90c
+modified: 1659607116294
+created: 1659603806048
+url: http://localhost/Network/anuiextensions/documentextraction/v1/template
+name: AN - delete
+description: ""
+method: DELETE
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name":"TestTemplate",
+        "description":"Test description",
+        "clientId":"AN02000000104",
+        "schemaId":"8121726e-be56-4efe-94cf-4dc7220c1d64",
+        "id": "ad6117b2-2494-4c88-8f55-416f93967f89"
+    }
+parameters: []
+headers:
+  - name: X-XSRF-TOKEN
+    value: 790f76a5-9f66-486a-ae33-2a1ba44bda21
+    id: pair_37e0ef6481184ac5a17cd7feb8e2b47c
+  - name: Content-Type
+    value: application/json
+    id: pair_5de78aaec57243ffb4fc43a081fb09de
+authentication: {}
+metaSortKey: -1659603806048
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

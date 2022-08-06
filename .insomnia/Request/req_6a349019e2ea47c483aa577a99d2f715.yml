@@ -1,0 +1,33 @@
+_id: req_6a349019e2ea47c483aa577a99d2f715
+type: Request
+parentId: fld_91a31e37541248d7829cf676a85ef90c
+modified: 1659603806041
+created: 1659603806041
+url: http://localhost/Network/anuiextensions/documentextraction/v1/template/sampleDocuments
+name: AN - Template Sample Document
+description: ""
+method: POST
+body:
+  params:
+    - type: file
+      name: file
+      disabled: false
+      fileName: /Users/i532556/Work/PDF_INVOICING/22.pdf
+    - type: file
+      name: template
+      disabled: false
+      fileName: /Users/i532556/Desktop/template.json
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: X-XSRF-TOKEN
+    value: 790f76a5-9f66-486a-ae33-2a1ba44bda21
+authentication: {}
+metaSortKey: -1659603806041
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

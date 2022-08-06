@@ -1,0 +1,28 @@
+_id: req_6c95bfc5b981442c92601bd1f56dd7ea
+type: Request
+parentId: fld_91a31e37541248d7829cf676a85ef90c
+modified: 1659608163985
+created: 1659603806055
+url: http://localhost/Network/anuiextensions/documentextraction/v1/client
+name: AN - Client Create
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: X-XSRF-TOKEN
+    value: b153ba93-8d3e-42fe-9c73-354786cc7c30
+    id: pair_677f8f8aafd14824ae2bd86ee6625b76
+  - id: pair_a3ca8ad0bce34454b098216c01f41056
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1659603806114
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_a7de281eab784a79be4f8e7706dab29b
+type: Request
+parentId: fld_91a31e37541248d7829cf676a85ef90c
+modified: 1659608402234
+created: 1659603806058
+url: http://localhost/Network/anuiextensions/documentextraction/v1/schema/
+name: AN - Schema Create
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: ""
+parameters: []
+headers:
+  - name: X-XSRF-TOKEN
+    value: b153ba93-8d3e-42fe-9c73-354786cc7c30
+    id: pair_fbeb1fb05d0c4dddb81d73f9155e1566
+  - name: Content-Type
+    value: application/json
+    id: pair_ddac2419bdd640dbaa763b8586e6dcf2
+authentication: {}
+metaSortKey: -1659603806089
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

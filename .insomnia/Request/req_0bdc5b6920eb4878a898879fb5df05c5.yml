@@ -1,0 +1,59 @@
+_id: req_0bdc5b6920eb4878a898879fb5df05c5
+type: Request
+parentId: fld_91a31e37541248d7829cf676a85ef90c
+modified: 1659607099724
+created: 1659603806051
+url: http://localhost/Network/anuiextensions/documentextraction/v1/template/sampleDocuments/annotations?templateId=ad6117b2-2494-4c88-8f55-416f93967f89&documentId=7fb8536f-1d36-4773-95d0-a914512efc73
+name: AN - post annotations
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "headerFields": [
+            {
+                "coordinates": {
+                    "h": 0.0039382005452893,
+                    "w": 0.00750469043151969,
+                    "x": 0.845684803001876,
+                    "y": 0.0769463798848834
+                },
+                "name": "invoiceNumber",
+                "page": 1,
+                "value": "22"
+            }
+        ],
+        "lineItems": [
+            [
+                {
+                    "coordinates": {
+                        "h": 0.00636170857315965,
+                        "w": 0.0154784240150094,
+                        "x": 0.631332082551595,
+                        "y": 0.274462284156316
+                    },
+                    "name": "unitOfMeasure",
+                    "page": 1,
+                    "value": "1(1)"
+                }
+            ]
+        ]
+    }
+parameters: []
+headers:
+  - name: X-XSRF-TOKEN
+    value: 790f76a5-9f66-486a-ae33-2a1ba44bda21
+    id: pair_70981c5dcc634dacb056988844b60365
+  - name: Content-Type
+    value: application/json
+    id: pair_d8a10c082da74b0ab1cca7e79e59e83d
+authentication: {}
+metaSortKey: -1659603806051
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

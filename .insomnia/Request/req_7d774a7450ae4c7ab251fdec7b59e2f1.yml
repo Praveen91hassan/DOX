@@ -1,0 +1,42 @@
+_id: req_7d774a7450ae4c7ab251fdec7b59e2f1
+type: Request
+parentId: fld_91a31e37541248d7829cf676a85ef90c
+modified: 1659771432884
+created: 1659603806060
+url: http://localhost/Network/anuiextensions/documentextraction/v1/template
+name: AN - Template create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"doxConfig":[],
+    	"sampleDocumentsContext":[],
+    	"templateContext":{
+    		"name": "psm_template_name",
+    		"description": "psm_template_desc",
+    		"type": "GLOBAL",
+    		"currentStep": "SELECT_TEMPLATE_TYPE"
+    	},
+    	"clientId": "AN02000000400",
+    	"schemaId": "eb30233c-3d05-447d-841c-75effe1dfa4a",
+    	"mode": "CREATE"
+    }
+parameters: []
+headers:
+  - name: X-XSRF-TOKEN
+    value: C1C97A8DDC52CB866B3F3F5ED95A7ED6
+    id: pair_d0b245dccf244bed8134957a6df43e7a
+  - name: Content-Type
+    value: application/json
+    id: pair_be5eae9082134b119b820ed0f1095680
+authentication: {}
+metaSortKey: -1659603806076.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

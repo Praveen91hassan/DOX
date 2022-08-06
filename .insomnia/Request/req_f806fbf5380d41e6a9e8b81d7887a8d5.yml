@@ -1,0 +1,33 @@
+_id: req_f806fbf5380d41e6a9e8b81d7887a8d5
+type: Request
+parentId: fld_91a31e37541248d7829cf676a85ef90c
+modified: 1659776570536
+created: 1659603806053
+url: http://localhost/Network/anuiextensions/documentextraction/v1/template/export
+name: AN - Template Export
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name":"TestTemplate",
+        "description":"Test description",
+        "clientId":"AN02000000104",
+        "schemaId":"8121726e-be56-4efe-94cf-4dc7220c1d64",
+        "id": "ad6117b2-2494-4c88-8f55-416f93967f89"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7736c9296399469e9d9a05d430c2258f
+authentication: {}
+metaSortKey: -1659603806164
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
